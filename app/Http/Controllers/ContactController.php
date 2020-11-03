@@ -19,7 +19,7 @@ class ContactController extends Controller
        $contact->tittle = $request['tittle'];
        $contact->save();
 
-        Mail::to('yachin.vn@gmail.com')->send(new ContactMail($request['email']));
+        Mail::to('anhdv007@gmail.com')->send(new ContactMail($request['email']));
         return back();
 //        return response()->json([]);
     }
