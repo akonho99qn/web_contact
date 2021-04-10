@@ -2,54 +2,18 @@
 
 add file .env:
 
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:HjgAxKg4QnZ/4r4pg9K8WjX1ZlE2CVPN0n71dGL1qHU=
-APP_DEBUG=true
-APP_URL=http://localhost
 
-LOG_CHANNEL=stack
+<p>#php artisan config:cache</p>
+<p>#php artisan config:clear</p>
+<p>MAIL_DRIVER=smtp</p>
+<p>MAIL_HOST=smtp.gmail.com</p>
+<p>MAIL_PORT=587</p>
+<p>#MAIL_USERNAME=yachin.vn@gmail.com</p>
+<p>#MAIL_PASSWORD=bnyfaiupprnwfzbf</p>
+<p>MAIL_USERNAME=anhdv007@gmail.com</p>
+<p>MAIL_PASSWORD=sjyfcgrvamtppqge</p>
+<p>MAIL_ENCRYPTION=tls</p>
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=customer
-DB_USERNAME=root
-DB_PASSWORD=
-
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-QUEUE_CONNECTION=sync
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
-
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-
-#php artisan config:cache
-#php artisan config:clear
-MAIL_DRIVER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-#MAIL_USERNAME=yachin.vn@gmail.com
-#MAIL_PASSWORD=bnyfaiupprnwfzbf
-MAIL_USERNAME=anhdv007@gmail.com
-MAIL_PASSWORD=sjyfcgrvamtppqge
-MAIL_ENCRYPTION=tls
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=us-east-1
-AWS_BUCKET=
-
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_APP_CLUSTER=mt1
-
-MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
